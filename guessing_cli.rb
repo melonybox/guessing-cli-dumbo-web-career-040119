@@ -6,10 +6,10 @@ def run_guessing_game
     theInput = gets.chomp
     numA = rand(1..6)
     
-    if "#{theInput}" == 'exit'
+    if theInput.to_i == "exit"
       puts "Goodbye!"
       break
-    elsif "#{theInput}" == numA
+    elsif theInput.to_i == numA
       puts "You gussed the correct number!"
     else
       puts "The computer gussed #{numA}."
