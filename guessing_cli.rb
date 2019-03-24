@@ -8,7 +8,7 @@ def run_guessing_game
     
     if theInput == 'exit'
       puts "Goodbye!"
-      elsif
+      break
     end
   end
 end
