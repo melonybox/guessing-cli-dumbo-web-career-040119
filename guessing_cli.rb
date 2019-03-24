@@ -6,7 +6,7 @@ def run_guessing_game
     theInput = gets.chomp
     numA = rand(1..6)
     
-    if theInput == 'exit'
+    if "#{theInput}" == 'exit'
       puts "Goodbye!"
       break
     elsif theInput.to_i == numA
