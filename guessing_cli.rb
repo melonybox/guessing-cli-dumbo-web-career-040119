@@ -10,9 +10,9 @@ def run_guessing_game
       puts "Goodbye!"
       break
     elsif theInput.to_i == numA
-      puts "You gussed the correct number!"
+      puts "You guessed the correct number!"
     else
-      puts "The computer gussed #{numA}."
+      puts "The computer guessed #{numA}."
     end
   end
 end
