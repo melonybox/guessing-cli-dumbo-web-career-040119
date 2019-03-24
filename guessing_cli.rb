@@ -5,7 +5,7 @@ def run_guessing_game
   loop do
     
     puts "Guess a number between 1 and 6."
-    numA = rand(6)+1
+    numA = rand(1..6)
     theInput = gets.chomp
       
     if theInput = 'exit'
