@@ -11,6 +11,8 @@ def run_guessing_game
       break
     elsif theInput.to_i == numA
       puts "You gussed the correct number!"
+    else
+      puts "The computer gussed #{numA}."
     end
   end
 end
